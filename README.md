@@ -1,15 +1,31 @@
-📊 Telecom Customer Churn Prediction
+# 📊 Telecom Customer Churn Prediction
 
- A Machine Learning web application built with Python, Scikit-learn, and Streamlit that predicts whether a telecom customer is likely to churn (leave the service)  based on customer information.
+A Machine Learning web application built with **Python**, **Scikit-learn**, and **Streamlit** that predicts whether a telecom customer is likely to churn (leave the service) based on customer information.
 
-📌 Features
+---
+
+## 🚀 Live Demo
+
+Add your Streamlit deployment link here after deployment.
+
+Example:
+
+https://your-app-name.streamlit.app
+
+---
+
+## 📌 Features
+
 - Predicts customer churn using a trained Machine Learning model.
 - Interactive Streamlit web interface.
 - User-friendly input forms.
 - Displays churn prediction and probability.
 - Fast and easy to use.
 
-🛠️ Technologies Used
+---
+
+## 🛠️ Technologies Used
+
 - Python
 - Streamlit
 - Pandas
@@ -17,25 +33,23 @@
 - Scikit-learn
 - Joblib
 
-📂 Project Structure
+---
 
-Telecom_Churn_Prediction
+## 📂 Project Structure
 
+```
+Telecom_Churn_Prediction/
 │── app.py
-
 │── best_model.pkl
-
 │── scaler.pkl
-
 │── requirements.txt
-
 │── README.md
-
 │── Telecom_Customer_Churn.csv
+```
 
+---
 
-
-⚙️ Installation
+## ⚙️ Installation
 
 Clone the repository:
 
@@ -61,9 +75,12 @@ Run the application:
 streamlit run app.py
 ```
 
-📊 Input Features
+---
+
+## 📊 Input Features
 
 The model uses customer information such as:
+
 - Gender
 - Senior Citizen
 - Partner
@@ -84,7 +101,9 @@ The model uses customer information such as:
 - Monthly Charges
 - Total Charges
 
-🎯 Output
+---
+
+## 🎯 Output
 
 The application predicts:
 
@@ -93,7 +112,9 @@ The application predicts:
 
 It also displays the churn probability.
 
-📈 Machine Learning Model
+---
+
+## 📈 Machine Learning Model
 
 - Algorithm: Random Forest Classifier *(or replace with the algorithm you actually used)*
 - Data Preprocessing:
@@ -105,12 +126,16 @@ It also displays the churn probability.
   - Recall
   - F1 Score
 
-👩‍💻 Author
+---
 
-Himanshi Tikhe
+## 👩‍💻 Author
 
-LinkedIn: https:www.linkedin.com/in/hptikhe
+**Himanshi Tikhe**
+
+LinkedIn: https:/www.linkedin.com/in/hptikhe
 
 GitHub: https://github.com/himanshitikhe
 
-⭐ If you found this project useful, consider giving it a star!
+---
+
+## ⭐ If you found this project useful, consider giving it a star!
