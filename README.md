@@ -1,5 +1,6 @@
 📊 Telecom Customer Churn Prediction
-A Machine Learning web application built with Python, Scikit-learn, and Streamlit that predicts whether a telecom customer is likely to churn (leave the service) based on customer information.
+
+ A Machine Learning web application built with Python, Scikit-learn, and Streamlit that predicts whether a telecom customer is likely to churn (leave the service)  based on customer information.
 
 📌 Features
 - Predicts customer churn using a trained Machine Learning model.
@@ -17,15 +18,25 @@ A Machine Learning web application built with Python, Scikit-learn, and Streamli
 - Joblib
 
 📂 Project Structure
-Telecom_Churn_Prediction/
+
+Telecom_Churn_Prediction
+
 │── app.py
+
 │── best_model.pkl
+
 │── scaler.pkl
+
 │── requirements.txt
+
 │── README.md
+
 │── Telecom_Customer_Churn.csv
 
+
+
 ⚙️ Installation
+
 Clone the repository:
 
 ```bash
@@ -51,6 +62,7 @@ streamlit run app.py
 ```
 
 📊 Input Features
+
 The model uses customer information such as:
 - Gender
 - Senior Citizen
@@ -72,7 +84,8 @@ The model uses customer information such as:
 - Monthly Charges
 - Total Charges
 
-🎯 Outpu
+🎯 Output
+
 The application predicts:
 
 - ✅ Customer is likely to stay
@@ -81,6 +94,7 @@ The application predicts:
 It also displays the churn probability.
 
 📈 Machine Learning Model
+
 - Algorithm: Random Forest Classifier *(or replace with the algorithm you actually used)*
 - Data Preprocessing:
   - Label Encoding
@@ -92,8 +106,11 @@ It also displays the churn probability.
   - F1 Score
 
 👩‍💻 Author
+
 Himanshi Tikhe
+
 LinkedIn: https:www.linkedin.com/in/hptikhe
+
 GitHub: https://github.com/himanshitikhe
 
 ⭐ If you found this project useful, consider giving it a star!
